@@ -1,5 +1,8 @@
 <template>
   <div class="content">
+    <h1 class="text-3xl font-bold underline py-2">
+      Hello world!
+    </h1>
     <h1>Rsbuild with Vue</h1>
     <p>Start building amazing things with Rsbuild.</p>
   </div>
