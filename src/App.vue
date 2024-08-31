@@ -5,8 +5,13 @@
     </h1>
     <h1>Rsbuild with Vue</h1>
     <p>Start building amazing things with Rsbuild.</p>
+    <div class="py-2"><Button class="dark">Shadcn Button</Button></div>
   </div>
 </template>
+
+<script setup>
+import { Button } from '@/components/ui/button'
+</script>
 
 <style scoped>
 .content {

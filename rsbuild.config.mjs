@@ -3,6 +3,11 @@ import { pluginVue } from '@rsbuild/plugin-vue';
 
 export default defineConfig({
   plugins: [pluginVue()],
+  source: {
+    alias: {
+      '@': './src',
+    },
+  },
   tools: {
     bundlerChain: (chain) => {
       chain.module
