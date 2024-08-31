@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rsbuild build",
+    "check": "biome check --write",
+    "dev": "rsbuild dev --open",
+    "format": "biome format --write",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "app": "file:",
+    "vue": "^3.4.38"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@rsbuild/core": "1.0.1-rc.0",
+    "@rsbuild/plugin-vue": "1.0.1-rc.0"
+  }
+}
