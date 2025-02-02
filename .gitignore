@@ -11,3 +11,7 @@ dist/
 .vscode/*
 !.vscode/extensions.json
 .idea
+
+# lock files
+package-lock.json
+bun.lockb
